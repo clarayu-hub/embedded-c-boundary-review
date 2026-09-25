@@ -1,0 +1,7 @@
+interface:
+  display_name: "嵌入式 C 边界走查"
+  short_description: "审查 C 固件的回绕、溢出、越界与时序边界隐患"
+  default_prompt: "Use $embedded-c-boundary-review to review C/embedded source code against the 13 boundary-risk items (tick wrap, time-diff, epoch exhaustion, sync-less time, accumulator overflow, sequence wrap, protocol length overrun, ring-buffer full/empty, signed/unsigned, array/copy overrun, downlink range, init values after boot/OTA, reused vendor parameters), then produce a severity-graded review report."
+
+policy:
+  allow_implicit_invocation: true

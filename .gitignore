@@ -1,0 +1,16 @@
+# 忽略扫描器运行时产物与 Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 走查输出（本地生成，不入库）
+scan_report.md
+hits.json
+*.scan.json
+reports/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
